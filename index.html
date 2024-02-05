@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">  
+    <title>Your Responsive Website</title>
+    <style>
+        .one {
+         
+          /* margin-top: 20px;
+          margin-left: 50px; */
+          display: flex;
+          align-items: center;
+          justify-content:space-evenly;
+        }
+        .temp{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        /* .two {
+          margin-left: 50px;
+        } */
+    
+        .three {
+          height: 40px;
+          width: 400px;
+          border-radius: 2rem;
+          /* margin-left: 300px; */
+          color: rgb(206, 206, 206);
+          border: rgb(206, 205, 205);
+          background-color:rgb(207, 205, 205);
+        }
+    
+        .four {
+          /* margin-left: 250px;  */
+          font-size: 20px;
+        }
+    
+        .down-arrow {
+          width: 0;
+          height: 0;
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-top: 8px solid #333;
+          cursor: pointer;
+          margin-left: 5px;
+          margin-right: 13px;
+        }
+        
+        .comp {
+            width: 100vw;
+            height: auto;
+            display: block;
+            margin: 0;
+            padding: 0;
+            margin-top:10px ;
+        }
+
+        .CE {
+            position: absolute;
+            top: 50%; 
+            left: 25%; 
+            transform: translate(-50%, -50%); 
+            color: white;
+            font-size: 50px;
+            font-style: initial;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+        }
+        .CEFT{
+            position: absolute;
+            top: 59%; 
+            left: 24.5%; 
+            transform: translate(-50%, -50%); 
+            color: white;
+            font-size: 30px;
+            font-style: initial;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+      </style>
+</head>
+<body>
+    <div class="one">
+        <img class="two" src="logo.png" alt="Your Image" width="150px" height="30px">
+        <input class="three" type="search" placeholder="                 Search for your favorite groups in ATG">
+        <div class="temp">
+            <span class="four">Create account </span>
+        <span><a  style="text-decoration: none;" href="create.html" >It’s free! </a></span>
+        <div class="down-arrow"></div>
+        </div>
+    </div>
+    <img class="comp" src="Rectangle 2.png" alt="Computer"/>
+    <p class="CE">Computer Engineering</p>
+    <p class="CEFT">142,765 Computer Engineers follow this</p>
+    <nav>
+        <ul>
+            <li class="active">All Posts(32)</li>
+            <li>Article</li>
+            <li>Event</li>
+            <li>Education</li>
+            <li>Job</li>
+        </ul>
+        <section >
+            <button type="button" class="btn  btn-lg " style="margin-right: 15px; background-color:  rgb(231, 228, 228);">Write a Post <i class="fa fa-caret-down" style="color: black;"></i></button>
+            <button type="button" class="btn btn-primary btn-lg flex-content"><img src="group.png">Join Group <i class="fa fa-users-medical"></i></button>
+        </section>
+        
+    </nav>
+    <div class="line"></div>
+    <div class="mobile-view-menu">
+        <div class="left-post">Post(322)</div>
+        <div class="right-post">
+            <select>
+                <option>Filter:All</option>
+                <option>Article</option>
+                <option>Event</option>
+                <option>Education</option>
+                <option>Job</option>
+                <option>Write a Post</option>
+                <option>Join Group</option>
+            </select>
+        </div>
+        
+    </div>
+    
+    <div class="details-section" style="margin-top: 40px;">
+        <div class="left-details">
+            
+                <div class="card" >
+                    <img src="img2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="field">✍ Article</p>
+                      <h2 style="margin-top: 30px 0px;">What if famous brands had regular fonts? Meet RegulaBrands!</h2>
+                      <span style="margin: 30px 0px;">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                        </span>
+                      <div class="content">
+                        <div class="content-left">
+                            <img src="profile1.png" alt="..."/>
+                            <p class="name">Sarthak Kamra</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-eye" style="margin-right: 5px;"></i> 1.4k views <button class="btn-style"><i class="fa fa-share"></i></button>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img src="img3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="field">🔬 Education
+                    </p>
+                      <h2 style="margin-top: 30px 0px;">Tax Benefits for Investment under National Pension Scheme launched by Government
+                    </h2>
+                      <span style="margin: 30px 0px;">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+    
+                        </span>
+                    <div class="content">
+                        <div class="content-left">
+                            <img src="profile2.png" alt="..."/>
+                            <p class="name">Sarah West
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-eye" style="margin-right: 5px;"></i> 1.4k views <button class="btn-style"><i class="fa fa-share"></i></button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img src="img4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="field">🗓 Meetup</p>
+                      <h2 style="margin-top: 30px 0px;">Finance & Investment Elite Social Mixer @Lujiazui</h2>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div  class="d-flex" style="gap:80px;margin:40px 0;">
+                        <i class="fa fa-calendar" style="font-weight: 700; gap:10px"> Fri, 12 Oct, 2018</i>
+                        <i class="fa fa-location-dot" style="font-weight: 700px;"><img src="loc.png">Ahmedabad, India</i>
+                    </div>
+                    <button style="background-color: transparent;outline: none; border-color: rgb(183, 181, 181); width: 100%; padding: 7px; border-radius: 10px; color: orangered;font-weight: 500;">Visit Website</button>
+                    <div class="content">
+                        <div class="content-left">
+                            <img src="profile3.png" alt="..."/>
+                            <p class="name">Ranal Jones</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-eye" style="margin-right: 5px;"></i> 1.4k views <button class="btn-style"><i class="fa fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="card" >
+                    <div class="card-body">
+                      <p class="field">💼 Job</p>
+                      <h2 style="margin-top: 30px 0px;">Software Developer</h2>
+                      <i class="fa-solid fa-ellipsis"></i>
+                      <div  class="d-flex" style="gap:80px;margin:40px 0;">
+                        <i class="fa-solid fa-briefcase" style="font-weight: 700; gap:10px">Innovaccer Analytics Private Ltd</i>
+                        <i class="fa fa-location-dot" style="font-weight: 700px;"><img src="loc.png">Noida, India</i>
+                      </div>
+                      <button style="background-color: transparent;outline: none; border-color: rgb(183, 181, 181); width: 100%; padding: 7px; border-radius: 10px; color:rgb(10, 200, 10);font-weight: 500;">Apply on Timesjobs</button>
+                      <div class="content">
+                        <div class="content-left">
+                            <img src="profile4.png" alt="..."/>
+                            <p class="name">Joseph Gray</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-eye" style="margin-right: 5px;"></i> 1.4k views <button class="btn-style"><i class="fa fa-share"></i></button>
+
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                
+                        
+            </div>
+        
+        <div class="right-details">
+            <div>
+                <img class="loc" src="loc.png">
+                <i class="fa fa-location-dot" style="font-weight: 700px;">Noida, India</i>
+                <i class="fa fa-pen"></i>
+                <div class="line2"></div>
+            </div>
+            <i class="fa-sharp fa-light fa-circle-exclamation"></i>
+            <p style="color: grey;"><img  src="error.png"> Your location will helps us serve better and extend a pensonalised experience</p>
+      
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
